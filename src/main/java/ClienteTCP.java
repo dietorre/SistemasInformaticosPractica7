@@ -7,7 +7,7 @@ public class ClienteTCP {
         //pruebaCliente("zoltar.redes.upv.es",21);
         //pruebaCliente("test.rebex.net",21);
         //getPaginaWeb("www.upv.es",80);
-        //pruebaCliente("djxmmx.net",17);
+        //pruebaCliente("djxmmx.net",17);  //Cita del día
         mandarMensaje("10.11.69.1",55555,"Diego de la Torre Gutiérrez");
     }
 
