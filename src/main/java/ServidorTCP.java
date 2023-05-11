@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class ServidorTCP {
     public static void main(String[] args){
-        crearServidor(55555,"Bienvenido al servidor de prueba de redes");
+        //crearServidor(55555,"Bienvenido al servidor de prueba de redes");
+        servidorTablaMultiplicar(55555);
     }
 
     public static void crearServidor(int puerto, String mensaje){
@@ -29,7 +30,7 @@ public class ServidorTCP {
             Scanner entrada = new Scanner(s.getInputStream());
             int aux = entrada.nextInt();
             for(int i=0;i<10;i++){
-                salida.println(aux + " * " + i + " = =" + aux*i);
+                salida.println(aux + " x " + i + " = =" + aux*i);
             }
             salida.flush();
             s.close();
